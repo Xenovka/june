@@ -37,7 +37,7 @@ function Final() {
                     },
                     {
                         x: -window.innerWidth - 2570,
-                        duration: 10,
+                        duration: 25,
                         ease: "none"
                     }
                 )
@@ -48,7 +48,7 @@ function Final() {
                     },
                     {
                         x: -window.innerWidth - 2150,
-                        duration: 10,
+                        duration: 25,
                         ease: "none"
                     },
                     "<52.5%"
