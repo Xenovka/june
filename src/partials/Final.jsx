@@ -55,7 +55,8 @@ function Final() {
                 )
                 .to(".thank-wengie", {
                     duration: 0.5,
-                    opacity: 1
+                    opacity: 1,
+                    delay: 2
                 })
                 .to(".image-18", {
                     duration: 0.5,
@@ -66,13 +67,13 @@ function Final() {
                             duration: 0.5,
                             display: "none",
                             opacity: 0,
-                            delay: 4
+                            delay: 5
                         });
                         gsap.to(".thank-wengie", {
                             duration: 0.5,
                             display: "none",
                             opacity: 0,
-                            delay: 4
+                            delay: 5
                         });
                     }
                 })
@@ -80,13 +81,13 @@ function Final() {
                     duration: 0.5,
                     opacity: 1,
                     display: "block",
-                    delay: 4.5,
+                    delay: 5.5,
                     onComplete: () => {
                         gsap.to(".love", {
                             duration: 0.5,
                             display: "none",
                             opacity: 0,
-                            delay: 2
+                            delay: 4
                         });
                     }
                 })
@@ -94,7 +95,7 @@ function Final() {
                     duration: 0.5,
                     opacity: 1,
                     display: "block",
-                    delay: 2.5
+                    delay: 4.5
                 });
         },
         { scope: container }
